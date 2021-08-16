@@ -14,6 +14,10 @@
 		4035025A26CA092A004BD348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4035025826CA092A004BD348 /* LaunchScreen.storyboard */; };
 		4035026426CA0B92004BD348 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035026326CA0B92004BD348 /* TabBarVC.swift */; };
 		4035026726CA0D22004BD348 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035026626CA0D22004BD348 /* TabBarViewController.swift */; };
+		4035028926CA3FEB004BD348 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035028826CA3FEB004BD348 /* HomeViewController.swift */; };
+		4035028B26CA401A004BD348 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035028A26CA401A004BD348 /* LeftViewController.swift */; };
+		4035028D26CA4025004BD348 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035028C26CA4025004BD348 /* RightViewController.swift */; };
+		4035029026CA89F1004BD348 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035028F26CA89F1004BD348 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		4035025B26CA092A004BD348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4035026326CA0B92004BD348 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		4035026626CA0D22004BD348 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4035028826CA3FEB004BD348 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4035028A26CA401A004BD348 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		4035028C26CA4025004BD348 /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		4035028F26CA89F1004BD348 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				4035024C26CA0929004BD348 /* HSelfControl */,
+				4035028E26CA403E004BD348 /* ViewController */,
 				4035025626CA092A004BD348 /* Assets.xcassets */,
 				4035024B26CA0929004BD348 /* Products */,
 			);
@@ -64,6 +73,7 @@
 				4035025326CA0929004BD348 /* Main.storyboard */,
 				4035025826CA092A004BD348 /* LaunchScreen.storyboard */,
 				4035025B26CA092A004BD348 /* Info.plist */,
+				4035028F26CA89F1004BD348 /* StartViewController.swift */,
 				4035026526CA0CCC004BD348 /* TabBar */,
 			);
 			path = HSelfControl;
@@ -76,6 +86,16 @@
 				4035026326CA0B92004BD348 /* TabBarVC.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		4035028E26CA403E004BD348 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4035028A26CA401A004BD348 /* LeftViewController.swift */,
+				4035028826CA3FEB004BD348 /* HomeViewController.swift */,
+				4035028C26CA4025004BD348 /* RightViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4035028926CA3FEB004BD348 /* HomeViewController.swift in Sources */,
+				4035029026CA89F1004BD348 /* StartViewController.swift in Sources */,
+				4035028D26CA4025004BD348 /* RightViewController.swift in Sources */,
 				4035026426CA0B92004BD348 /* TabBarVC.swift in Sources */,
 				4035024E26CA0929004BD348 /* AppDelegate.swift in Sources */,
+				4035028B26CA401A004BD348 /* LeftViewController.swift in Sources */,
 				4035026726CA0D22004BD348 /* TabBarViewController.swift in Sources */,
 				4035025026CA0929004BD348 /* SceneDelegate.swift in Sources */,
 			);

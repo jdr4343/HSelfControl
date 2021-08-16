@@ -17,7 +17,7 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
         self.delegate = self
         self.selectedIndex = 1
         setUPMiddleButton()
-        
+        self.navigationController?.isNavigationBarHidden = true
         
     }
     func setUPMiddleButton() {
