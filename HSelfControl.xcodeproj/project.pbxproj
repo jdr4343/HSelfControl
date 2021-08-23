@@ -18,6 +18,7 @@
 		4035028B26CA401A004BD348 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035028A26CA401A004BD348 /* LeftViewController.swift */; };
 		4035028D26CA4025004BD348 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035028C26CA4025004BD348 /* RightViewController.swift */; };
 		4035029026CA89F1004BD348 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035028F26CA89F1004BD348 /* StartViewController.swift */; };
+		4035029226CA9288004BD348 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035029126CA9288004BD348 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4035028A26CA401A004BD348 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		4035028C26CA4025004BD348 /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
 		4035028F26CA89F1004BD348 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		4035029126CA9288004BD348 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				4035025B26CA092A004BD348 /* Info.plist */,
 				4035028F26CA89F1004BD348 /* StartViewController.swift */,
 				4035026526CA0CCC004BD348 /* TabBar */,
+				4035029126CA9288004BD348 /* Model.swift */,
 			);
 			path = HSelfControl;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4035029226CA9288004BD348 /* Model.swift in Sources */,
 				4035028926CA3FEB004BD348 /* HomeViewController.swift in Sources */,
 				4035029026CA89F1004BD348 /* StartViewController.swift in Sources */,
 				4035028D26CA4025004BD348 /* RightViewController.swift in Sources */,

@@ -92,6 +92,7 @@
                                 </constraints>
                                 <state key="normal" title="Button" image="next"/>
                                 <connections>
+                                    <action selector="didTabStartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CcQ-Ch-30B"/>
                                     <segue destination="LuA-II-iOn" kind="show" id="jrq-Bt-MwJ"/>
                                 </connections>
                             </button>
@@ -116,6 +117,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CvF-Zb-225"/>
+                    <connections>
+                        <outlet property="SaveButton" destination="UPN-fE-pFf" id="UOf-mu-Bkl"/>
+                        <outlet property="numberofTimesText" destination="Rjb-X8-PX3" id="XQG-Lq-fpl"/>
+                        <outlet property="selfControlText" destination="dHk-y4-VVP" id="Oam-fx-sZA"/>
+                        <outlet property="startDatePicker" destination="vNK-d8-XEZ" id="FEK-SV-hjb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -18,8 +18,16 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
     
-    }
+            date()
+        
     
+    }
+    func date() {
+        let today = Date()
+        let formatter = DateFormatter()
+        var modigiedData = Calendar.current.date(byAdding: .day, value: 1, to: today)!
+        
+    }
   
     
     
